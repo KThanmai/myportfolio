@@ -1,0 +1,97 @@
+body{
+	font:15px/1.5 Arial, Helvetica,sans-serif;
+	padding:0;
+	margin:0;
+	height: 100%;
+	width: 100%;
+	background: #212223;
+}
+ul{
+	margin:0;
+	padding:0;
+}
+
+/*body{
+	background: #35424a;
+}*/
+header{
+	background: #a83a2a;
+	color:#ffffff;
+	padding-top:30px;
+	min-height:70px;
+	border-bottom: black 2px solid;
+}
+#welcome-section{
+	height:100vh;
+	text-align: center;
+	font-size: 50px;
+	color: #ffffff;
+	background: #212223;
+	border-bottom: black 2px solid;
+
+}
+.container{
+	height: 100vh;
+}
+#navbar{
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+#navbar li{
+ 	float:right;
+ 	display: inline;
+ 	padding: 0 20px 0 20px;
+ }
+#navbar a{
+	color:#ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size:20px;
+}
+.projects-section-header{
+	font-size: 30px;
+	color: #ffffff;
+
+}
+.project-image{
+	height: 200px;
+	width: 200px;
+}
+#projects a{
+	color: #ffffff;
+	font-size: 20px;
+
+}
+#projects{
+	background: #212223;
+
+}
+#contact{
+	background: #212223;
+	color: #ffffff;
+	font-size: 30px;
+	text-align: center;
+
+}
+#contact .contact-links a{
+	color: #ffffff;
+}
+
+@media (max-width: 400px)
+html {
+    font-size: 58%;
+}
+@media (max-width: 75em)
+html {
+    font-size: 60%;
+}
+@media only screen and(max-width: 600px){
+	#navbar a{
+	color:#ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size:20px;
+}
+}
